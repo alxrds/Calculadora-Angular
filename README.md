@@ -1,6 +1,6 @@
 # Calculadora
 
-![Preview](https://github.com/alxrds/Snake/blob/main/img-snake.PNG?raw=true)
+![Preview](https://github.com/alxrds/calculadora-angular/blob/main/img-calculadora.png?raw=true)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
 
