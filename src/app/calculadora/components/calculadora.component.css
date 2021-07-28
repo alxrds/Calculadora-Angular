@@ -1,0 +1,79 @@
+body, html {
+  background: #ECEDEF;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  padding-bottom: 20px;
+  width: 320px;
+
+}
+.display {
+  width: 100%;
+  height: 60px;
+  padding: 40px 0;
+  background: #000;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.buttons {
+  padding: 20px 20px 0 20px;
+}
+.row {
+  width: 280px;
+  float: left;
+}
+input[type=button] {
+  width: 60px;
+  height: 60px;
+  float: left;
+  padding: 0;
+  margin: 5px;
+  box-sizing: border-box;
+  background: #ccc;
+  border: none;
+  font-size: 30px;
+  line-height: 30px;
+  border-radius: 15%;
+  font-weight: 500;
+  color: #FFF;
+  cursor: pointer;
+
+}
+input[type=text] {
+  width: 270px;
+  height: 60px;
+  float: left;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  color: #ffffff;
+  text-align: right;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0 25px;
+
+}
+.orange {
+  background: rgb(255, 120, 57) !important;
+  color: #ffffff !important;
+  width: 100px;
+
+}
+
+.black {
+  background: rgb(0, 0, 0) !important;
+  color: #ffffff !important;
+  width: 100px;
+
+}

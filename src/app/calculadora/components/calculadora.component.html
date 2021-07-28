@@ -1,0 +1,40 @@
+
+<div class="container">
+  <form name="form">
+  <div class="display">
+    <input type="text" placeholder="0" [value]="display" id="display" name="display" readonly/>
+  </div>
+    <div class="buttons">
+      <div class="row">
+        <input type="button" disabled value="" id="" style="background-color: #fff; cursor:default;">
+        <input type="button" value="" id="" style="background-color: #fff; cursor:default;">
+        <input type="button" value="CE" id="" (click)="cancelEntry()">
+        <input type="button" value="C" (click)="limpar()">
+      </div>
+      <div class="row">
+        <input type="button" id="btn7" value="7" (click)="adicionarNumero('7')">
+        <input type="button" id="btn8" value="8" (click)="adicionarNumero('8')">
+        <input type="button" id="btn9" value="9" (click)="adicionarNumero('9')">
+        <input type="button" value="/" id="btnDivisao" class="orange" (click)="definirOperacao('/')">
+      </div>
+      <div class="row">
+        <input type="button" id="btn4" value="4" (click)="adicionarNumero('4')">
+        <input type="button" id="btn5" value="5" (click)="adicionarNumero('5')">
+        <input type="button" id="btn6" value="6" (click)="adicionarNumero('6')">
+        <input type="button" id="btnMultiplicacao" class="orange" style="padding-top: 16px" value="*" (click)="definirOperacao('*')">
+      </div>
+      <div class="row">
+        <input type="button" id="btn1" value="1" (click)="adicionarNumero('1')">
+        <input type="button" id="btn2" value="2" (click)="adicionarNumero('2')">
+        <input type="button" id="btn3" value="3" (click)="adicionarNumero('3')">
+        <input type="button" id="btnSubtracao" class="orange" value="-" (click)="definirOperacao('-')">
+      </div>
+      <div class="row">
+        <input type="button" value="0" id="btn0" (click)="adicionarNumero('0')">
+        <input type="button" value="." id="btnDecimal" (click)="adicionarNumero('.')">
+        <input type="button" class="black" id="btnCalcular" value="=" (click)="calcular()">
+        <input type="button" id="btnSoma" class="orange" value="+" (click)="definirOperacao('+')">
+      </div>
+    </div>
+  </form>
+</div>
